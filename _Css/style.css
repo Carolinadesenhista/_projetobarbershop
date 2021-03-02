@@ -13,11 +13,11 @@ header {
     text-align: justify;
 }
 
-div img style {
+img {
     margin-top: 0px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     margin-left: 0px;
-    margin-right: 25px;
+    margin-right: 75px;
 }
 
 nav li {
@@ -38,7 +38,7 @@ nav a {
 
 .textoinicial {
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
 }
 
 main {
@@ -84,4 +84,8 @@ img {
 .lista-produtos li img {
     object-fit: contain;
     width: 200px;
+}
+
+.estabelicimento li img {
+    margin-left: 400px;
 }
