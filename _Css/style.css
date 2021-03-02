@@ -40,12 +40,12 @@ main li {
 
 main img:hover {
     border-style: solid;
-    border-color: #006400;
+    border-color: #000000;
     border-width: 5px;
 }
 
 main img:active {
-    border-color: #ff8c00;
+    border-color: #774d19;
 }
 
 img {
