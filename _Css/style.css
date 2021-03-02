@@ -8,9 +8,14 @@ header {
     text-align: center;
 }
 
-div img {
+.textoinicial {
+    font-weight: bold;
+    text-align: justify;
+}
+
+div img style {
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 25px;
     margin-left: 0px;
     margin-right: 25px;
 }
@@ -48,7 +53,7 @@ main li {
 main img:hover {
     border-style: solid;
     border-color: #000000;
-    border-width: 5px;
+    border-width: 3px;
 }
 
 main img:active {
