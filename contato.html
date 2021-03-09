@@ -10,8 +10,8 @@
 <body>
 
 </body>
-<header>
-    <h1><img style="object-fit: contain" src="_imagens/logo2.jpg" width="30%" height="30%"></h1>
+<div class="container">
+    <img style="object-fit: contain" src="_imagens/logo2.jpg" width="30%" height="30%">
     <nav>
         <ul>
             <li>
@@ -25,8 +25,31 @@
             </li>
         </ul>
     </nav>
-</header>
+</div>
 
-<a href="https://api.whatsapp.com/send?phone=5583991059799&text=Olá"> Whattsapp</a>
+<a style="display: flex; flex-direction: row" href="https://api.whatsapp.com/send?phone=5583991059799&text=Olá">
+    <div style="display: flex; align-items: center">Whatsapp</div> <img width="25" height="25" src="_Imagens/whatsapp.jpg" />
+</a>
+
+<div class="mapouter" style="display: flex; justify-content: center">
+    <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br>
+        <style>
+            .mapouter {
+                position: relative;
+                text-align: right;
+                height: 500px;
+                width: 100%;
+            }
+        </style><a href="https://www.embedgooglemap.net">adding google maps to wordpress</a>
+        <style>
+            .gmap_canvas {
+                overflow: hidden;
+                background: none!important;
+                height: 500px;
+                width: 600px;
+            }
+        </style>
+    </div>
+</div>
 
 </html>
